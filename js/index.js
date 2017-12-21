@@ -10,25 +10,20 @@ window.onload = function () {
             for (var i = 0; i < aLi.length; i++) {
                 aA[i].index = [i];
                 console.log(aA);
-                aA[i].onclick = function () {
+                aA[i].onmouseover = function () {
                     for (var i = 0; i < aLi.length; i++) {
                         aLi[i].style.display='none';
                         aA[i].style.backgroundColor="#fff";
                     }
                     aLi[this.index].style.display = "block";
                     this.style.backgroundColor="#333";
-                    clearInterval(timer);
-                    setI(this.index);
-
                 }
             }
         }
         play();
-        //setI(0);
         var timer=null;
-        function setI(a) {
             clearInterval(timer);
-            var j=a;
+            var j=0;
             function abc() {
                 for (var i = 0; i < aLi.length; i++) {
                     aLi[i].style.display='none';
@@ -51,8 +46,7 @@ window.onload = function () {
                 clearInterval(timer);
             };
             oPlay.onmouseout=function () {
-                timer=setInterval(aaa,1000)
+                timer=setInterval(aaa,3000)
             }
-        }
     })()
 };
