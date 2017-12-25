@@ -41,12 +41,12 @@ window.onload = function () {
                     }
                 }
             }
-            timer=setInterval(aaa,1000);
+            timer=setInterval(aaa,2500);
             oPlay.onmouseover=function () {
                 clearInterval(timer);
             };
             oPlay.onmouseout=function () {
-                timer=setInterval(aaa,3000)
+                timer=setInterval(aaa,2500)
             }
     })()
 };
