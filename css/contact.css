@@ -1,7 +1,10 @@
-.content .content-API .content-API-content p{
-    line-height: 30px;
+.content .content-API .content-API-content p {
+    line-height: 40px;
+    color: #555;
+    font-size: 14px;
 }
-.content .content-API .content-API-content p img{
+
+.content .content-API .content-API-content p img {
     width: 300px;
     margin-left: 200px;
 }
