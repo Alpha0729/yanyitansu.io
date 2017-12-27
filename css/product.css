@@ -40,7 +40,8 @@
     font-size:30px;
 }
 .content .content-new .content-new-left{
-    width: 300px;
+    width: 299px;
+    border-top:1px solid #ccc;
 }
 .content .content-new .content-new-left p{
     color: #333;
@@ -58,6 +59,8 @@
 }
 .content .content-new .content-new-left .content-new-left-new li{
     line-height: 40px;
+    height: 40px;
+    overflow: hidden;
 }
 .content .content-new .content-new-left .content-new-left-new a{
     font-size: 14px;
@@ -142,6 +145,7 @@
 .content .content-new .content-new-right .content-new-right-page .content-new-right-page-ul li:hover{
     background-color: #555;
     color:#fff;
+    transition: background .5s;
 }
 .content .content-new .content-new-left-new li:hover{
     background-color: #eee;

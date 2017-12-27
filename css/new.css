@@ -1,3 +1,13 @@
+.content .content-top {
+    height: 400px;
+}
+
+.content .content-top img {
+    width: 100%;
+    height: 100%
+}
+
+
 .content-new-left{
     border-right: 1px solid #ccc;
 }
@@ -31,6 +41,10 @@
     width: 60%;
     color:#444;
 }
+.content .content-new .content-new-right .content-new-right-left li b{
+    padding-right: 8px;
+    color: #bbb;
+}
 .content .content-new .content-new-right ul li span{
     margin-right: 10px;
 }
@@ -41,10 +55,10 @@
 }
 .content .content-new .content-new-right .content-new-right-page{
     width: 100%;
-    height: 100%;
+    height: 52px;
 }
 .content .content-new .content-new-right .content-new-right-page .content-new-right-page-ul{
-    position:absolute;bottom: 0;left: 200px;
+    position:absolute;bottom: 0;left: 0px;
 
 }
 .content .content-new .content-new-right .content-new-right-page .content-new-right-page-ul li:hover{

@@ -1,0 +1,45 @@
+.content .content-new {
+    width: 1200px;
+}
+
+.content .content-content {
+    width: 900px;
+    overflow: hidden;
+}
+
+.content .content-content h2 {
+    text-align: center;
+}
+
+.content .content-content .content-content-title {
+    border-bottom: 1px solid #ccc;
+}
+
+.content .content-content .content-content-img {
+    text-align: center;
+}
+
+.content .content-content .content-content-img img {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.content .content-content i {
+    padding: 10px 0;
+    font-size: 12px;
+    color: #777;
+    display: block;
+    text-align: center;
+    font-style: normal;
+}
+
+.content .content-content pre {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.content .content-new .content-new-left {
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+    width: 299px;
+}

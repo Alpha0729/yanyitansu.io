@@ -9,7 +9,6 @@ window.onload = function () {
         function play() {
             for (var i = 0; i < aLi.length; i++) {
                 aA[i].index = [i];
-                console.log(aA);
                 aA[i].onmouseover = function () {
                     for (var i = 0; i < aLi.length; i++) {
                         aLi[i].style.display='none';
